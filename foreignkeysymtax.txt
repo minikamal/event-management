@@ -1,0 +1,4 @@
+INSERT INTO event_register(evsn,date,time,venue)
+SELECT  Sno,Date,Time,Venue
+  FROM event
+ WHERE Sno=1
